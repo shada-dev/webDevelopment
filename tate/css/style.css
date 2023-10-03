@@ -1,0 +1,42 @@
+img{
+	height: 50vh;
+	box-shadow: 10px 10px 50px blueviolet;
+	max-width: 100%;
+	padding: 10px;
+	margin: 20px;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	text-transform: capitalize;
+	font-family: cursive;
+}
+
+p{
+	font-family: monospace;
+	font-size: 18px;
+	margin-left: 20px;
+	text-indent: 5em;
+}
+
+p::first-letter{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#container{
+	display: flex;
+	justify-content: center;
+}
+
+.caption {
+	position: absolute;
+	transform: translateX(10px);
+	transform: translateY(375px);
+	background-color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    color: whitesmoke;
+    border-radius: 6px;
+    padding: 6px 15px;
+}

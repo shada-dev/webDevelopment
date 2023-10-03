@@ -1,0 +1,147 @@
+
+body{
+	margin: 0;
+	font-family: serif,sans-serif;
+}
+
+.landing{
+	background-image:url('../media/bg1.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 1000px;
+	width: 100%;
+}
+
+
+
+header{
+	display: flex;
+	flex-direction: column;
+}
+
+#logo{
+	font-size: 3.5em;
+	color: #13C5DD;
+	text-transform: uppercase;
+	background-color: whitesmoke;
+	margin: 0;
+	display: grid;
+	justify-content: center;
+	text-decoration: none;
+	animation: head;
+	animation-duration: 2s;
+}
+
+@keyframes head {
+	0%{
+		position: relative;
+		left: 200px; 
+	}
+	100%{
+		position: relative;
+		left: 0px; 
+	}
+}
+
+.nav{
+	display: flex;
+	background-color: #13C5DD;
+}
+
+.nav a{
+	flex: 10;
+	padding: 10px;
+	text-decoration: none;
+	padding-left: 60px;
+	font-size: 18px;
+}
+
+.nav a:hover{
+	color: whitesmoke;
+}
+
+.maintext{
+	padding: 40px;
+}
+
+#line1{
+	font-size: 4.5em;
+	color: #13C5DD;
+	padding-top: 130px;
+	animation: line1 ;
+	animation-duration: 1.5s; 
+}
+ 
+@keyframes line1 {
+	0%{
+		position: relative;
+		right: 200px; 
+	}
+	100%{
+		position: relative;
+		right: 0px; 
+	}
+}
+
+#line2{
+	padding: 20px 0px 0px 0px;
+	font-size: 3.5em;
+	color: #13C5DD;
+	animation: line2;
+	animation-duration: 2s;
+}
+
+@keyframes line2 {
+	0%{
+		position: relative;
+		right: 200px;
+	}
+	100%{
+		position: relative;
+		right: 0px; 
+	}
+}
+ 
+button{
+	padding: 16px 40px;
+	border-radius: 50px;
+	border:none;
+	background-color:s,whitesmoke;
+	text-transform: uppercase;
+	font-size: 16px;
+	transition: transform 0.3s ease;
+	animation: button ;
+	animation-duration: 3s;
+}
+
+   
+@keyframes button { 
+	0%{
+		position: relative;
+		right: 200px;
+	} 
+	100%{
+		position: relative;
+		right:0px;
+	}
+
+}
+
+.but{
+	padding: 30px 0px 0px 150px;
+}
+
+button:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.total{
+	position: relative;
+	top: 50px;
+	background-image: url('../media/cbum.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	color: whitesmoke;
+}

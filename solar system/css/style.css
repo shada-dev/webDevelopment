@@ -1,0 +1,135 @@
+body{
+	font-family: Area,serif;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-size: 30px;
+}
+
+
+h1{
+	padding-left: 20px;
+	text-align: center;
+}
+
+h4{
+	background-color: lightblue;
+	border-radius: 20px;
+	text-align: center;
+}
+
+h3{
+	color: black;
+	text-align: center;
+}
+
+h2{
+	margin-right: 300px;
+	margin-left: 300px;
+	border-radius: 0px 50px;
+	text-align: center;
+	color: whitesmoke;
+	background-color: black;
+}
+
+.first_line{
+	margin-left: 20px;
+	font-size: 14px;
+	text-transform: none;
+	font-family: serif;
+}
+
+.intro{
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: top;
+	gap: 10px;
+	padding:20px;
+	padding-top: 0px;
+
+}
+#solar{
+	height: 200px;
+	width: 350px;
+	margin-right: 20px;
+	border-radius: 10px;
+	margin-top: 80px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#sun{
+	height: 200px;
+	width: 200px;
+	margin-top: -30px;
+	margin-right: 40px;
+	filter: drop-shadow(10px 10px 100px yellow);
+}
+
+
+#mercury{
+	height: 200px;
+	width: 200px;
+	filter: drop-shadow(10px 10px 100px #fd8f33);
+	margin-right: 25px;
+	padding-bottom: 20px;
+}
+
+.mer{
+	margin-top: 50px;
+}
+
+#venus{
+	height: 200px;
+	width: 200px;
+	margin-right: 40px;
+	filter: drop-shadow(10px 10px 100px #554e3c);
+}
+
+#earth{
+	height: 200px;
+	width: 200px;
+	filter: drop-shadow(10px 10px 100px blue);
+}
+
+.er{
+	padding-top: 30px;
+}
+
+#mars{
+	height: 200px;
+	width: 200px;
+	filter: drop-shadow(10px 10px 100px orangered);
+	padding-right: 40px;
+}
+
+#jupiter{
+	height: 200px;
+	width: 200px;
+	filter: drop-shadow(10px 10px 100px #f1ba6e);
+}
+
+#saturn{
+	height: 200px;
+	width: 200px;
+	filter: drop-shadow(10px 10px 100px #3e351f);
+	margin-right:20px ;
+}
+
+#uranus{
+	height: 200px;
+	width: 200px;
+	filter: drop-shadow(10px 10px 100px #437683);
+}
+
+#neptune{
+	height: 200px;
+	width: 210px;
+	filter: drop-shadow(10px 10px 100px blue);
+}
+
+#content{
+	font-size: 20px;
+	padding-left:42% ;
+	
+}
